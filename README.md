@@ -112,10 +112,52 @@ outputs:
 
  ● Expected Output: The function will return the hardcoded prices for the underlying tokens:
  
- Price of TokenA: 100
-
- Price of TokenB: 200
- 
- Price of TokenC: 300
+   Price of TokenA: 100
+  
+   Price of TokenB: 200
+   
+   Price of TokenC: 300
  
  ● Verification: Call the function to verify these values.
+
+
+
+## Connecting Metamask
+#### Creating contract Instance
+To Create Contract Instance we need
+Contract Address
+ABI (Application Binary Interface)
+Signer
+```bash
+if(window.ethereum)
+{
+  let provider = new ethers.providers.Web3Provider(window.ethereum);
+  await provider_.send("eth_requestAccounts",[]);
+  // will open the Metamask automatically
+  let signer_ =provider_.getSigner();
+  let Contract_Instance = new ethers.Contract(Contract_Address,ABI,signer);
+}
+```
+ ● Provider used read data from blockchain (read-only)
+ ●  Signer used to sign transaction and ineract with blockchain
+
+## Auto-Switch Metamask to Sepolia Network Before Connecting
+```bash
+if (chainId !== 11155111)   // Sepolia network ID
+{
+   await window.ethereum.request({
+   method: 'wallet_switchEthereumChain',
+   params: [{ chainId: ethers.utils.hexValue(Sepolia_Chain_ID) }],
+}
+```
+![image](https://github.com/user-attachments/assets/82db2124-63a5-49f3-9218-d551bcf624e6)
+
+## Handling Metamask Account and Network Changes
+To ensure your dApp responds to changes in Metamask, you can use the following script. This will reload the page when the network or account changes, updating the displayed account information:
+
+```bash
+window.ethereum.on("chainChanged", () => {window.location.reload();});
+window.ethereum.on("accountsChanged", () => {window.location.reload();})
+```
+
+
