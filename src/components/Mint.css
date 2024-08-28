@@ -1,0 +1,64 @@
+.mint-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .mint-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .mint-title {
+    font-size: 2rem;
+    margin-bottom: 2px;
+    color: #1ed710; /* Blue color for title */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .mint-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    font-size: 1.1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .mint-input:focus {
+    border-color: #2196F3; /* Blue color for focus state */
+  }
+  
+  .mint-button {
+    padding: 12px 25px;
+    background-color: #63d50c; /* Blue color for button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .mint-button:hover {
+    background-color: #217d0d; /* Darker blue on hover */
+    transform: translateY(-3px);
+  }
+  
+  .mint-button:active {
+    transform: translateY(1px);
+  }
+  

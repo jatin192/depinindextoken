@@ -1,0 +1,58 @@
+.stake-container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin: 30px auto;
+  max-width: 450px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stake-container:hover {
+  transform: translateY(-5px);
+}
+
+.stake-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2196F3; /* Blue color for Stake component */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.stake-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.stake-input:focus {
+  border-color: #2196F3; /* Blue color for focus state */
+}
+
+.stake-button {
+  padding: 12px 25px;
+  background-color: #2196F3; /* Blue color for button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.stake-button:hover {
+  background-color: #1976d2; /* Darker blue on hover */
+  transform: translateY(-3px);
+}
+
+.stake-button:active {
+  transform: translateY(1px);
+}

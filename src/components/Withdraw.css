@@ -1,0 +1,44 @@
+.withdraw-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin: 30px auto;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .withdraw-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .withdraw-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6e06ee; /* Blue color for title */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .withdraw-button {
+    padding: 12px 25px;
+    background-color: #772ded; /* Blue color for button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .withdraw-button:hover {
+    background-color: #30016d; /* Darker blue on hover */
+    transform: translateY(-3px);
+  }
+  
+  .withdraw-button:active {
+    transform: translateY(1px);
+  }
+  
