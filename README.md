@@ -190,6 +190,7 @@ window.ethereum.on("accountsChanged", () => {window.location.reload();})
 2. Install the required dependencies :
 
    ```bash
+   cd depinindextoken
    npm install   
    ```
 3. start the development server :
