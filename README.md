@@ -179,4 +179,22 @@ window.ethereum.on("chainChanged", () => {window.location.reload();});
 window.ethereum.on("accountsChanged", () => {window.location.reload();})
 ```
 
+## To run this Dapp  locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone  https://github.com/jatin192/depinindextoken.git
+   ```
+
+2. Install the required dependencies :
+
+   ```bash
+   npm install   
+   ```
+3. start the development server :
+
+   ```bash
+   npm run dev
+   ```  
 
