@@ -1,6 +1,13 @@
 # Depinindextoken
 
 ## Live Daap : https://depinindextoken.netlify.app/ 
+#### Testnet : Sepolia Ethereum
+#### Language : Solidity
+#### Addresses
+    TokenA		        = 	0x321753426b259417fB15a594FBAf1487814A4334
+    TokenB 		        = 	0xB853AeB2f29fDE64676Ad83Ee81cDA6955b1f344
+    TokenC 		        = 	0x558403FE5FCBc91B84bE402BC6C23f1F2E2E9165
+    DePINIndexToken  	= 	0xEA9E46A21CceA6C2992Af045b723A7fF2A3edF91     
 ## Folder structure
 ```bash
   src/
@@ -33,12 +40,12 @@ contract CustomERC20 is ERC20
 ``` 
 ### Deployment Steps:
  Deploy this contract three times with different names, symbols, and initial supplies:
- 
- TokenA: Name = "TokenA", Symbol = "TKA", Initial Supply = 10000
-
- TokenB: Name = "TokenB", Symbol = "TKB", Initial Supply = 10000
-
- TokenC: Name = "TokenC", Symbol = "TKC", Initial Supply = 10000
+     
+     TokenA: Name = "TokenA", Symbol = "TKA", Initial Supply = 10000
+    
+     TokenB: Name = "TokenB", Symbol = "TKB", Initial Supply = 10000
+    
+     TokenC: Name = "TokenC", Symbol = "TKC", Initial Supply = 10000
  
 ### After Deployment:
  Note the contract addresses for each token. You will need to use these addresses when deploying your DePINIndexToken contract.
@@ -124,11 +131,11 @@ outputs:
 
  ● Expected Output: The function will return the hardcoded prices for the underlying tokens:
  
-   Price of TokenA: 100
-  
-   Price of TokenB: 200
-   
-   Price of TokenC: 300
+       Price of TokenA: 100
+      
+       Price of TokenB: 200
+       
+       Price of TokenC: 300
  
  ● Verification: Call the function to verify these values.
 
