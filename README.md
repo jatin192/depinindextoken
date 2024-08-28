@@ -1,6 +1,18 @@
 # Depinindextoken
 
 ## Live Daap : https://depinindextoken.netlify.app/ 
+## Folder structure
+```bash
+  src/
+  ├── App.jsx
+  ├── components/
+  │   ├── Mint.jsx
+  │   ├── Burn.jsx
+  │   ├── Stake.jsx
+  │   ├── Navbar.jsx
+  │   ├── Withdraw.jsx
+  │   ├── Info.jsx
+```
 
 ## Workflow
 ### 1. Create ERC20 Contracts for TokenA, TokenB, and TokenC:
