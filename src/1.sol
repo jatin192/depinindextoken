@@ -1,48 +1,10 @@
-/*
-
-0x321753426b259417fB15a594FBAf1487814A4334
-0xB853AeB2f29fDE64676Ad83Ee81cDA6955b1f344
-0x558403FE5FCBc91B84bE402BC6C23f1F2E2E9165
-
-
-0xEA9E46A21CceA6C2992Af045b723A7fF2A3edF91
-*/
+/*       TokenA = 0x321753426b259417fB15a594FBAf1487814A4334
+         TokenB = 0xB853AeB2f29fDE64676Ad83Ee81cDA6955b1f344
+         TokenC = 0x558403FE5FCBc91B84bE402BC6C23f1F2E2E9165
+DePINIndexToken = 0xEA9E46A21CceA6C2992Af045b723A7fF2A3edF91      */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MITs
 pragma solidity ^0.8.18;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
